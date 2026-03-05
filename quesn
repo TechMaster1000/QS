@@ -1,0 +1,41 @@
+What technology decisions are on the table in the next 6–12 months? This tells you which domains in the research need the deepest coverage — if they're evaluating API gateway vendors next quarter, that section needs to be vendor-comparison grade, not just trend commentary.
+Which parts of the current technology stack keep you up at night? This surfaces the pain points — aging middleware, scaling issues, vendor lock-in concerns, security gaps. The research should directly address whether the industry is moving away from those same technologies and what the migration paths look like.
+How do you define Corporate Systems' role relative to other technology teams at the firm? This clarifies scope. Does Corporate Systems own infrastructure, enterprise platforms, internal tools, integration, all of the above? The research domains should map exactly to what they're accountable for.
+Who is your audience for this research output — and what decisions will it inform? A report for the CIO making investment decisions looks very different from one for engineering leads evaluating tools. This shapes the depth, tone, and format of the final deliverable.
+Which peer firms do you benchmark against, and what have you seen them do recently that caught your attention? This gives you the competitive intelligence angle. If they've noticed Fidelity investing heavily in platform engineering or BlackRock's Aladdin AI capabilities, those become specific threads to pull in the research.
+Are there specific technology bets the firm has already made that this research should validate or challenge? If Vanguard has committed to AWS as primary cloud, or has standardized on a particular data platform, the research should evaluate that choice against industry direction — not suggest they start over.
+What's your biggest concern about AI adoption within Corporate Systems specifically? This could be governance, cost, talent, regulatory risk, reliability — whatever they say becomes a focal point. Given that Vanguard has publicly announced AI research partnerships and GenAI capabilities, there's clearly organizational momentum, but Corporate Systems may have different concerns than the AI team.
+Where are you spending the most engineering time on undifferentiated heavy lifting? This identifies automation and platform engineering opportunities. If teams are burning cycles on environment provisioning, deployment pipelines, or manual integration work, the research should highlight how the industry is solving those same problems.
+What's your appetite for open-source vs. commercial vendor solutions? This fundamentally changes the recommendations. Some Corporate Systems teams at financial firms are heavily vendor-reliant due to support and compliance requirements, while others are actively adopting open-source stacks. The research should reflect their actual procurement posture.
+How frequently would you want this kind of technology landscape intelligence refreshed? This is a Phase 2 question disguised as a Phase 1 question. If they say quarterly, you're building toward a scheduled Quick Flow. If they say ad-hoc, you keep it as standalone Quick Research projects. Their answer shapes the entire roadmap for this initiative.
+
+One tactical suggestion — don't run through these as a checklist. Pick the 4–5 that feel most natural for the conversation and let the others come up organically. Questions 1, 2, 4, and 5 are the highest priority because they directly shape what goes into the research objective refinement. The rest you can circle back to in follow-up conversations.the research is generated there is a chat next to it called comments how can i use it2:47 PM2 / 2Good — you're looking at the right feature. That comments pane is your primary tool for iterating on the research output without starting over from scratch.
+How It Works
+The Research pane on the right of the window accepts comments up to 400 characters. You can add comments that will be queued for revision, as they require deeper investigation by Quick Research. AWS
+So it's not a casual chat — each comment you submit triggers Quick Research to go back and do additional analysis on that specific point, then update the report accordingly. Think of it as giving revision instructions to a research analyst.
+How to Use It Effectively
+Be specific and directive. Don't write vague comments like "expand the AI section." Instead write something like:
+
+"The AI governance section doesn't cover model risk management frameworks specific to SEC-regulated firms. Research how financial services firms are implementing SR 11-7 guidance for AI/ML models and add findings."
+
+Or:
+
+"Add a comparison table of AWS Bedrock vs Azure OpenAI Service vs Google Vertex AI covering pricing models, data residency options, and SOC 2 compliance status."
+
+Challenge weak claims. If you see a statement that feels generic or unsupported, use the comment to push for evidence. You can also use the Understand the statement icon (three horizontal lines and a plus) to launch an explanation window that shows how a statement in the report was determined, including a summary of the evidence and a breakdown of the conclusion. AWS If the evidence is thin, submit a comment asking for deeper sourcing.
+Fill gaps your stakeholders will notice. Skim the report with your 10 stakeholder questions in mind. If there's nothing about platform engineering maturity but that's a priority for your team, submit a comment like:
+
+"Add a section on internal developer platform adoption across financial services. Cover Backstage, Port, and Cortex. Include organizational models for platform teams at large enterprises."
+
+Add context from your stakeholder meeting. After your meeting today, this is where the comments pane becomes powerful. If a stakeholder tells you they're evaluating API gateway vendors, come back and comment:
+
+"Corporate Systems is evaluating API management platforms. Compare Kong, Apigee, AWS API Gateway, and MuleSoft for enterprise financial services use cases. Include pricing, governance features, and regulatory compliance capabilities."
+
+Practical Tips
+
+Keep each comment focused on one ask — don't pack three requests into one 400-character comment
+Submit your highest-priority revisions first since each one triggers additional research time
+After revisions complete, review the updated sections and verify the citations check out
+Once you're satisfied, you can use the Download button at the top to download the report as a PDF or Word document AWS to share with your stakeholders
+
+Use the comment pane aggressively after your stakeholder meeting today — that's when you'll have the most actionable context to steer the research toward what actually matters to the team.
