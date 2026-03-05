@@ -7,3 +7,19 @@ Analyze the following technology domains:
 5. Enterprise Integration and API Management — API-first strategy adoption, event-driven architecture trends, MCP (Model Context Protocol) and emerging integration patterns for AI-native applications, and the shift from traditional middleware to composable architecture.
 6. Software Delivery and Developer Experience — Platform engineering, internal developer portals, AI-assisted software development tools (GitHub Copilot, Amazon Q Developer, Cursor), and engineering productivity metrics evolving across the industry.
 For each domain, identify: key vendor movements and strategic shifts in the past 6 months, emerging technologies gaining enterprise traction, technologies or approaches showing declining relevance, and specific implications or adoption considerations for a regulated financial services firm focused on low-cost investing and client outcomes.
+
+
+Website 
+
+For a Corporate Systems technology landscape report at a financial services firm, here are the 10 that give you the best coverage with minimal overlap:
+
+gartner.com — industry-standard analyst coverage, Magic Quadrants, Hype Cycles
+forrester.com — enterprise tech Wave reports, complements Gartner with different methodology
+infoq.com — deep technical content on architecture, platform engineering, AI adoption patterns
+thenewstack.io — best coverage of cloud-native, platform engineering, and DevOps trends
+thoughtworks.com/radar — their Technology Radar is exactly the kind of output your stakeholders want
+mckinsey.com — executive-level digital transformation and AI adoption research
+aws.amazon.com/blogs — since Vanguard is working within AWS ecosystem
+darkreading.com — strongest enterprise security and zero-trust coverage
+github.blog — developer tools, AI coding assistants, engineering productivity data
+stackoverflow.blog — annual developer surveys, technology adoption trends with real data
