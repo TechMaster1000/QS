@@ -1,0 +1,47 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "My Test API",
+    "version": "1.0.0"
+  },
+  "servers": [
+    { "url": "https://your-api-gateway-url/stage" }
+  ],
+  "components": {
+    "securitySchemes": {
+      "OktaS2S": {
+        "type": "oauth2",
+        "flows": {
+          "clientCredentials": {
+            "tokenUrl": "https://your-okta-domain/oauth2/default/v1/token",
+            "scopes": {
+              "your.scope.name": "Description of scope"
+            }
+          }
+        }
+      }
+    }
+  },
+  "security": [
+    { "OktaS2S": ["your.scope.name"] }
+  ],
+  "paths": {
+    "/your-endpoint": {
+      "get": {
+        "operationId": "getStuff",
+        "summary": "Short summary",
+        "description": "Clear description of what this does — Quick uses this for natural language routing.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": { "type": "object" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
